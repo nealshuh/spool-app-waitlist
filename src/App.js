@@ -332,8 +332,8 @@ export default function SpoolWaitlist() {
             <h1 className="app-name">Spool</h1>
             <p className="tagline">Your thread's running out.</p>
             <p className="description">
-              The revolutionary new app that's about to change everything. 
-              Join thousands of others waiting to experience the future of digital threads.
+              Spend more time living and less time unravelling.
+              Reduce your screentime.
             </p>
           </div>
 
