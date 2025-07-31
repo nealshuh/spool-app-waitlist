@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import SpoolLogo from './SpoolLogo.png'; // Import the image
 import { supabase } from './lib/supabase'; // Uncommented this line
 
 export default function SpoolWaitlist() {
@@ -321,9 +322,9 @@ export default function SpoolWaitlist() {
       <div className="spool-container">
         <div className="container">
           <div className="content">
-            {/* Spool Logo SVG */}
+            {/* Spool Logo using imported image */}
             <img 
-              src="/SpoolLogo.PNG"
+              src={SpoolLogo}
               alt="Spool App Icon" 
               className="logo app-icon"
             />
